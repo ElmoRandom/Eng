@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <link rel="stylesheet" href="Styling Sheet/styling.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+
+    <title>English Project</title>
+    <style>
+        *{
+            font-family:sans-serif;
+        }
+        p{
+            text-align: justify;
+            font-size:2.5vh;
+        }
+        header{
+            min-height: 100vh;
+            background:url(Photos/ISB-International_School_Bangkok_Thailand.jpg);
+            background-size:cover;
+            background-position:center;
+            position:relative;
+            color: white;
+        }
+        .intro-text{
+            position:  absolute;
+            top:30%;
+            left:50%;
+            transform:translate(-50%,30%);
+        }
+        .intro-text h1{
+            font-size: 60px;
+        }
+        nav{
+            margin-bottom: 0px;
+            box-sizing:border-box;
+            padding:0px;
+            z-index:1;
+        }
+        section{
+            min-height:100px;
+            background-color:white;
+            z-index:inherit 1;
+        }
+        ul.a {
+        list-style-type: circle;
+        }
+        div.row{
+            margin-top:100px;
+            margin-bottom:10px;
+        }
+        .tabs .indicator{
+            background-color:#1a237e;
+        }
+        div.parallax{
+            background-color:white;
+        }
+        .tabs .tab a:focus, tabs.tab a:focus:active{
+            background :transparent;
+        }
+        footer{
+            min-height: 100vh;
+        }
+        @media screen and (max-width:670px){
+            header{
+                min-height:400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    
+    <header class="paral1">
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="" class="brand-logo">About the ISB Community</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#him">About Him</a></li>
+                    <li><a href="#article">Article</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#him">About Him</a></li>
+                    <li><a href="#article">Article</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#contact">Contact</a></li>            
+                </ul>
+            </div>
+        </nav>
+        <div class="intro-text">       
+            <h1>Life Long Love of ISB</h1>
+            <h3 style="text-align: center; justify-content: center;">By Elmo</h3>
+        </div>
+    </header>
+    <section class="container section">
+        <h3 style="font-style: italic; align-content: center;" class=" grey-text text-lighten-1">"Apart from those 2 things demographic not much has change we always had great kid, great parent, great teacher"
+        </h3>
+    </section>
+  <!-- photo / grid -->
+    <section class="conatiner section scrollspy" id="article">
+        <div class="row">
+
+                <div class="col s12 l4 offset-l1 push-l6">
+                    <img src="Photos/pict3.jpg" alt="" class="responsive-img materialboxed" >
+                </div>
+                <div class="col s12 l5 offset-l1 pull-l5 center-align">
+                    <h2 class="indigo-text text-darken-4">About the Community</h2>
+                        <p>Dr.Davies first  impression was a very good one. "Yeah I did when I coming 
+                            in as teacher , very supportive among teaching colleague. "Have there been  any change 
+                            in the community?" I asked. "It tough question, in terms of the  demographic". He 
+                            mentioned that other changes that impact community are emphasizing better well-being or
+                            emotional state of students. He also mentioned that some other  change include better
+                            connection between the thai staff community and the teacher community, like
+                            joining professional day and social.
+                    </p>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col s12 l4 offset-l1 scrollspy" id="him" style="padding-top:20px;">
+                <img src="Photos/Screen Shot 2019-11-29 at 11.49.46 AM.png" alt="" class="responsive-img materialboxed" >
+            </div>
+            <div class="col s12 l5 offset-l1 center-align">
+                <h2 class="indigo-text text-darken-4">About  Him</h2>
+                <p>He has been working at ISB for 26  years, since the 2nd of the current  ISB campus. 
+                    Attracted to work here by ISB wold-class campus and it diversity of the student body with 60 nationality. Before he had work
+                    in Australia after he came to thailand to work at Sri Nakarin University(techer training program).
+                    
+                </p>
+                <h2 class="indigo-text text-darken-4">His Ideal Community</h2>
+                <p>What is your ideal community?  His answer was "pretty much like ISB. A place where people feel valued, safe
+                    and people feel free to talk to anyone. WIth joy and happiness and not to much stress just the right amount, tons of actiivities
+                    , opportunities for kids to developed their passion and learn academically and learn hwo to be sucessful. Throughout kids entire life.
+                    .A community 
+                    that have attain all  six  student values.
+                    
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 offset-l1 push-l6">
+                <img src="Photos/Pict2.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l4">
+                <h2 class="indigo-text text-darken-4">Learn More</h2>
+                <p>Learn more about the ISB community  visit the  website</p>
+                <a href="https://www.isb.ac.th/" class="btn waves-effect waves-light">Learn More <i class="material-icons">info</i></a>
+            </div>
+        </div>
+    </section>
+  <!-- parallax --> 
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="Photos/cool3.jpg" alt="" class="responsive-img">
+            </div>
+        </div>
+    <!-- services / tabs -->
+    <section class="container section scrollspy" id="community">
+            <div class="row">
+                <div class="col s12">
+                    <h2 class="indigo-text text-darken-4 center-align">Project for Closer Community</h2>
+                </div>
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s6">
+                            <a href="#1" class="indigo-text text-darken-4">Joining Teacher Activity</a>
+                        </li>
+                        <li class="tab col s6">
+                            <a href="#2" class="indigo-text text-darken-4">Joint Teacher and Thai Staff Project</a>
+                        </li>
+                    </ul>
+                    <div class="col s12" id="1">
+                        <ul class="a">
+                            <li><p>Joining together on Professional Development days</p> </li>
+                            <li><p>Joining together for wellness activities</p></li>
+                        </ul>
+                    </div>
+                    <div class="col s12" id="2">
+                        <ul class="a">
+                            <li><p>Classified Staff Appreciation Day (organised by teachers)</p></li>
+                            <li><p>Joint social functions</p></li>
+                            <li><p>Coming together for community service, such as Habitat for Humanity</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+        <div class="parallax">
+            <img src="Photos/pict5.png" alt="" class="responsive-img">
+        </div>
+    </div>
+   
+        <!-- Chart -->
+<section class="container">
+    <div class="row">
+        <div class="col s12 l4 offset-l1">
+            <h2 class="indigo-text text-darken-4">Student Population</h2>
+            <p style="font-style: italic;">"One of the best school in the world just provide really great education, great professional development, great facility and beautiful international student body" - Dr. Davies</p>
+        </div>
+        <div class="col s12 l7" style="margin-bottom: 10px;">
+                <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    
+</section>
+<script>var myChart = document.getElementById('myChart').getContext('2d');
+        Chart.defaults.scale.ticks.beginAtZero = true;
+        var myStudentPop = new Chart(myChart, {
+            type: 'doughnut',
+        
+            data: {
+                labels: [ 'American','Thai','Japanese','Korean','Canadian','India','UK','Australia','China','Israel','Germany','Netherland', 'Other',],
+                datasets: [{labels:"population",data:[529,438,124,121,55,55,48,43,31,26,23,23,145]}],
+                backgroundColor:['rgba(0, 0, 0, 0.1)','rgba(255,0,0,0.1)','rgba(0,255,0,0.1)'],
+                hoverBorderWidth:3,
+                hoverBorderColor:'#000'
+                
+            },
+            option: {
+                
+            }
+        });</script>
+        <!--parrallax-->
+        <div class="parallax-container">
+                <div class="parallax">
+                    <img src="Photos/cool2.jpeg" alt="" class="responsive-img">
+                </div>
+            </div>
+<!--Video Insert Here-->
+<section class="container">
+    <div class="row">
+    <div class="col s12 l5 "><h2 class="indigo-text text-darken-4">Interview Experience</h2>
+    <p>"As I walk into his office filled with various of intriguing books, 
+        his huge smile filled me with warmth" - Elmo</p> 
+    <p>His personality was very likable it as if he does not  know what a bad mood is. He radiates
+        a sense of friendliness despite his massive build. He was very open to my interview  questions
+        , as he  answered  my question to the very best of his ability.
+    </p></div>
+    <div class="col s12 l6 offset-l1">
+        <video src="Video/20191122_144445.mp4" controls width="320" height="240"></video>
+        <video src="Video/20191122_144445.mp4" controls width="320" height="240"></video>
+        </div>
+    </div>
+</section>
+  <!-- contact form -->
+    <section class="conatiner scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l3 offset-l1">
+                <h2 class="indigo-text text-darken-4">Contact Him</h2>
+            </div>
+            <div class="col s12 l7 offset-l1">
+                <p>Email: andrewd@isb.ac.th</p><br>
+                <p>Phone Number: </p>
+            </div>
+        </div>
+    </section>
+    <!-- test section-->
+
+  <!-- footer -->
+    <footer class="page-footer grey">
+        <div class="container">
+            <div class="row">
+                <di class="col s12 l6">
+                    <h5>About Me the Creator</h5>
+                </di>
+            </div>
+        </div>
+        <div class="footer-copyright grey text-darken-4">
+            <div class="container center-align">
+                &copy; 2019 Stufff
+            </div>
+        </div>
+    </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+  <script>
+    
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.materialboxed').materialbox();
+        $('.parallax').parallax();
+        $('.tabs').tabs();
+        $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+</html>
